@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <!--tools:context=".MainActivity"-->
+
+    <item
+        android:id="@+id/aReInit"
+        android:orderInCategory="100"
+        android:title="@string/sbtReInit"
+        />
+    <item
+        android:id="@+id/aPhoneInfo"
+        android:orderInCategory="200"
+        android:title="@string/sbtPhoneInfo"
+        />
+    <item
+        android:id="@+id/aExportDb"
+        android:orderInCategory="300"
+        android:title="@string/sbtExportDb"
+        />
+    <item
+        android:id="@+id/aImportDb"
+        android:orderInCategory="400"
+        android:title="@string/sbtImportDb"
+        />
+</menu>

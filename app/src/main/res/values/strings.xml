@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SimpleBlackList</string>
+    <string name="stvHelloNotice">Select type of blocking</string>
+    <string name="stvHelloNoticeIncoming">for incoming calls</string>
+    <string name="sbtReInit">Reinitialize</string>
+    <string name="sradioAllowAll">Allow all</string>
+    <string name="sradioAllowWList">Allow from white list</string>
+    <string name="sradioDisableBList">Disable all from black list</string>
+    <string name="constPreferencesKey">ru.org.sevn.simpleblacklist.PREFERENCE_KEY</string>
+    <string name="constPrefMode">ru.org.sevn.simpleblacklist.pref.mode</string>
+    <string name="sbtPhoneInfo">Log Phone Info</string>
+    <string name="sbtExportDb">Export lists</string>
+    <string name="sbtImportDb">Import lists</string>
+
+</resources>

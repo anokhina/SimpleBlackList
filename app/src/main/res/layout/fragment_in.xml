@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sbtReInit"
+            android:id="@+id/btReInit"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stvHelloNotice"
+        android:id="@+id/tvHelloNotice" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stvHelloNoticeIncoming"
+        android:id="@+id/tvHelloNoticeIncoming" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGrpMode"
+        >
+
+        <RadioButton
+            android:id="@+id/radioAllowAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sradioAllowAll" />
+
+        <RadioButton
+            android:id="@+id/radioAllowWList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sradioAllowWList" />
+
+        <RadioButton
+            android:id="@+id/radioDisableBList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sradioDisableBList" />
+
+    </RadioGroup>
+
+</LinearLayout>
